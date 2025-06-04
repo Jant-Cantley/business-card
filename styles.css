@@ -1,0 +1,29 @@
+body {
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.avatar {
+    width: 140px;
+    height: 145px;
+    border-radius: 20px 0;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #086375;
+    color: #3c1642;
+    border-bottom: 6px solid #affc41;
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+@keyframes example {
+  from {background-color: #3c1642;}
+  to {background-color: #086375;}
+}
